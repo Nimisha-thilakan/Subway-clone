@@ -79,7 +79,7 @@ header .navbar{
     min-width: 64px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(255, 255, 255);
+    color: var(--bg-color);
     background-color: var(--btn-bg-color);
     box-shadow: rgba(0, 0, 0, 0.2);
     padding: 7px 16px;
@@ -116,38 +116,7 @@ header .navbar{
     }
 
    
-    @media(max-width:952px){
-                   
-            
-          li{
 
-                display:none;
-            }
-
-             .talk{
-                display:none;}
-
-                .navbar .talk{
-                    display: none;
-                }
-                .logo{
-                    display: none;
-                }
-
-              .m-logo{
-                    display: flex;
-                    size: 30%;
-                   
-                }
-                .header{
-
-                    width:10%;
-                }
-                .checkbtn{
-                    display: block;
-                }
-
-    }
 
 /*--main--*/
 
@@ -179,31 +148,7 @@ width: 400px;}
    
 }
 
-@media(max-width:952px){
 
-    .main {
-        background-image: url("mobile-home-img.50492b53f35e6048d3fa.jpg");
-        background-position: top;
-        background-size: cover;
-        height: 800px;
-        padding-left: 10px;
-    }
-
-    .grill{ 
-        margin-top: 50px;
-        width: 200px;
-        padding-left: 10px;
-    }
-
-    .main p{
-
-        padding-left: 20px;
-        font-size: 16px;
-
-
-    }
-
-}
 
 
 /*V-section starts*/
@@ -225,18 +170,7 @@ iframe{
   height:500px;
 }
 
-@media(max-width:952px){
-    .video{ 
-        border-radius: 10px;
-        height: 250px;
-        overflow: hidden;
-        width: 400px;
-        }
-        iframe{
-            width:400px;
-          height:250px;
-        }
-}
+
 
 
 /*carousel*/
@@ -258,15 +192,15 @@ iframe{
 
 /*-Footer-section starts*/
 .footer{
-    background: #008938;
+    background: var(--primary-color);
 }
 .contact-con{
     display: flex;
-         background: #008938;
+         background: var(--primary-color);
         background-repeat: none;
         background-size: cover;
         bottom: 0;
-        color: #fff;
+        color: var(--bg-color);
         display: flex;
         
         font-family: Roboto, sans-serif;
@@ -383,23 +317,4 @@ iframe{
 .footer img {
     overflow-clip-margin: content-box;
     overflow: clip;
-}
-@media(max-width:952px){
-
-    .contact-con{
-        display: block;
-    }
-    .first{
-
-        padding-left: 30%;
-    }
-
-    .mid-content div{
-
-        padding-left: 30%;
-    }
-    .last{
-
-        padding-left: 30%;
-    }
 }

@@ -1,0 +1,78 @@
+/* Header*/
+
+@media(max-width:952px){
+li{
+display:none;
+}
+.talk{
+display:none;}
+.navbar .talk{
+display: none;
+}
+.logo{
+display: none;
+}
+.m-logo{
+display: flex;
+size: 30%;
+}
+.header{
+width:10%;
+}
+.checkbtn{
+display: block;
+}
+}
+/*--main--*/
+
+@media(max-width:952px){
+.main {
+background-image: url("mobile-home-img.50492b53f35e6048d3fa.jpg");
+background-position: top;
+background-size: cover;
+height: 800px;
+padding-left: 10px;
+}
+.grill{ 
+margin-top: 50px;
+width: 200px;
+padding-left: 10px;
+}
+.main p{
+padding-left: 20px;
+font-size: 16px;
+}
+}
+
+/*V-section starts*/
+
+@media(max-width:952px){
+.video{ 
+border-radius: 10px;
+height: 250px;
+overflow: hidden;
+width: 400px;
+}
+iframe{
+width:400px;
+height:250px;
+}
+}
+
+/*-Footer-section starts*/
+
+@media(max-width:952px){
+
+.contact-con{
+display: block;
+}
+.first{
+padding-left: 30%;
+}
+.mid-content div{
+padding-left: 30%;
+}
+.last{
+padding-left: 30%;
+}
+}
